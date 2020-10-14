@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>String Manipulation</title>
+</head>
+
+<body>
+
+    <h1 id="sentence">
+        Burger Fries Fries Chicken Pizza Sandwich Milkshake Coke
+    </h1>
+    <script>
+    var sentenceNode = document.getElementById("sentence")
+    var sentence = sentenceNode.innerText
+
+    var upperSentence = sentence.toUppserCase()
+    var lowerSentence = sentence.toLowerCase()
+    var firstElevenChars = sentence.substr(0, 11)
+
+
+    var allWords = sentence.split(" ")
+    console.log(allWords)
+
+
+    </script>
+
+</body>
+</html>

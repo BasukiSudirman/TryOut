@@ -1,0 +1,13 @@
+#include<iostream.h>
+main()
+{
+    int A[3] [3] = {{1,2,3},{2,4,6},{3,6,9}};
+    int i,j;
+
+    for (i=0; i<3; i++)
+    {
+        for (j=0; j<3; j++)
+        cout<<A[i][j]<<" ";
+        cout<<endl;
+    }
+}
